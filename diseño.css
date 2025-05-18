@@ -1,0 +1,201 @@
+/* Diseño Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Secciones */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Introducción */
+.intro {
+    background-color: #e3f2fd;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Beneficios */
+.benefits .benefit-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.benefits .benefit-item h3 {
+    color: #0d47a1;
+}
+
+.benefit-item button {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.benefit-item button:hover {
+    background-color: #1976d2;
+}
+
+/* Impacto */
+.impact .impact-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.impact-item button{ background-color: #0d47a1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.impact-item button:hover {
+    background-color: #1976d2;
+}
+.impact iframe {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Estudios y Casos Reales */
+.studies ul {
+    list-style: none;
+    margin: 20px 0;
+}
+.container button{
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.container button:hover{
+    background-color: #1976d2;
+}
+.studies ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Conclusión */
+.conclusion {
+    background-color: #f1f8e9;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Botón Flotante */
+#scrollToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+#scrollToTop:hover {
+    background-color: #1976d2;
+}
